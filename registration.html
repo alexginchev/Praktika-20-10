@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Записване за фестивала</title>
+
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: Arial;
+            color: #333333;
+            text-align: center;
+        }
+
+        header {
+            background-color: purple;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        form {
+            background-color: white;
+            width: 80%;
+            max-width: 400px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 2px solid purple;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            text-align: left;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            border-radius: 5px;
+            font-family: Arial;
+        }
+
+        .button {
+            background-color: orangered;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .back-button {
+            background-color: purple;
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: purple;
+            color: white;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Стани участник!</h1>
+        <p>Училището има талант!</p>
+    </header>
+
+    <main>
+
+        <h2>Форма за записване</h2>
+
+        <p>
+            Попълни формата и се включи в нашия фестивал!
+        </p>
+
+        <form action="#" method="post">
+
+            <label for="name">Имена на участник:</label>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Въведи своите имена"
+                   required>
+
+            <label for="email">Имейл адрес:</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Въведи своя имейл"
+                   required>
+
+            <label for="phone">Телефон за контакт:</label>
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   placeholder="Въведи телефон">
+
+            <label for="talent">Вид талант:</label>
+            <select id="talent" name="talent" required>
+                <option value="">Избери талант</option>
+                <option value="music">Музика</option>
+                <option value="dance">Танци</option>
+                <option value="art">Рисуване</option>
+                <option value="project">Ученически проект</option>
+                <option value="sport">Спорт</option>
+                <option value="other">Друго</option>
+            </select>
+
+            <label for="details">Допълнителна информация:</label>
+            <textarea id="details"
+                      name="details"
+                      rows="4"
+                      placeholder="Разкажи за своето участие"></textarea>
+
+            <button type="submit" class="button">
+                Изпрати заявка
+            </button>
+
+        </form>
+
+        <p>
+            <a href="festival.html" class="back-button">
+                Обратно към фестивала
+            </a>
+        </p>
+
+    </main>
+
+    <footer>
+        <p>Нашето училище | 2026 г.</p>
+    </footer>
+
+</body>
+
+</html>

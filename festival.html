@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Фестивал</title>
+
+    <style>
+        body {
+            background-color: #fff0f5;
+            font-family: Arial;
+            color: #333333;
+            text-align: center;
+        }
+
+        header {
+            background-color: purple;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        h2 {
+            color: purple;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+            padding: 15px;
+        }
+
+        .festival-image {
+            width: 80%;
+            max-width: 600px;
+            height: 300px;
+            object-fit: cover;
+            border: 3px solid purple;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+
+        ul {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .program {
+            background-color: white;
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        .program th {
+            background-color: purple;
+            color: white;
+        }
+
+        .program th, .program td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .button {
+            background-color: orangered;
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: purple;
+            color: white;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Училището има талант!</h1>
+        <p>Покажи и своя талант!</p>
+
+        <nav>
+            <a href="#program">Програма</a>
+            <a href="#participants">Участници</a>
+            <a href="#contacts">Контакти</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Добре дошли на фестивала!</h1>
+
+        <p>
+            Каним всички ученици, учители и родители
+            на нашия весел училищен фестивал!
+        </p>
+
+        <img src="festival.jpg"
+             alt="Снимка от училищния фестивал"
+             class="festival-image">
+
+        <section>
+            <h2>Какво ви очаква?</h2>
+
+            <p class="highlight">
+                Много музика, танци, рисунки, интересни проекти
+                и спортни предизвикателства!
+            </p>
+
+            <h2>Нашите дейности</h2>
+
+            <ul>
+                <li>Музикални изпълнения</li>
+                <li>Танцово шоу</li>
+                <li>Изложба на рисунки</li>
+                <li>Ученически проекти</li>
+                <li>Спортни състезания</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Кога и къде?</h2>
+
+            <p>Дата: 20 октомври 2026 г.</p>
+            <p>Час: 10:00</p>
+            <p>Място: Училищният двор</p>
+        </section>
+
+        <section id="program">
+            <h2>Програма</h2>
+
+            <table class="program">
+                <tr>
+                    <th>Час</th>
+                    <th>Събитие</th>
+                    <th>Място</th>
+                </tr>
+
+                <tr>
+                    <td>10:00</td>
+                    <td>Откриване</td>
+                    <td>Училищният двор</td>
+                </tr>
+
+                <tr>
+                    <td>10:30</td>
+                    <td>Музикални изпълнения</td>
+                    <td>Сцена</td>
+                </tr>
+
+                <tr>
+                    <td>11:30</td>
+                    <td>Изложба на рисунки</td>
+                    <td>Фоайе</td>
+                </tr>
+
+                <tr>
+                    <td>12:00</td>
+                    <td>Спортни дейности</td>
+                    <td>Игрище</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="participants">
+            <h2>Искаш ли да участваш?</h2>
+
+            <p>Запиши се и покажи своя талант!</p>
+
+            <p>
+                <a href="registration.html" class="button">
+                    Стани участник!
+                </a>
+            </p>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакти</h2>
+
+            <p>Обърни се към организаторите в училище.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Нашето училище | 2026 г.</p>
+    </footer>
+
+</body>
+
+</html>
